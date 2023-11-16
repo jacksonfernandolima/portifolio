@@ -22,4 +22,12 @@
 .icone {
     font-size: 3rem;
     color: var(--red);
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.icone:hover {
+    background-color: var(--secondary);
+    transform: translateY(0.5rem);
+    transition: all 0.8s;
 }

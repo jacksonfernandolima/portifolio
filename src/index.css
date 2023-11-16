@@ -23,3 +23,18 @@ padding: 0;
 box-sizing: border-box;
 }
 
+body::-webkit-scrollbar {
+  width: 12px;
+  
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--primary);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--red);
+  border-radius: 20px;
+  border: solid var(--secondary);
+}
+

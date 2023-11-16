@@ -1,17 +1,21 @@
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
-import Container from "../../components/Container";
+import Card from "../../components/Card";
+import styles from "./Projetos.module.css";
+
+
 
 
 function Projetos() {
     return (
-        <>
-        <Header />
-        <Container>
+        <section className={styles.projetos}>
         <h2>Projetos</h2>
-        </Container>
-        <Footer />
-        </>
+        <section className={styles.lista}>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        </section>
+        </section>
         
     );
 }
