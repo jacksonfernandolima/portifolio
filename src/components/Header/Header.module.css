@@ -6,12 +6,12 @@
 
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .header span {
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1.3rem;
+    
 }
 
 .header a {
@@ -23,4 +23,10 @@
 
 .header a:hover {
     color: var(--red);
+}
+.logo {
+    width: 40px;
+    margin: 0;
+    padding: 0;
+   
 }

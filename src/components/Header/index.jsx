@@ -4,14 +4,19 @@ import styles from "./Header.module.css";
 function Header() {
     return (
         <header className={styles.header}>
-            <Link to="/">
-                <span>JACKSONfernando.dev</span>
+            <Link>
+            <img className={styles.logo} src="logo03.png" alt="logo" />
+            </Link>
+            <Link to="/" >
+                <span>JacksonFernando.dev</span>
             </Link>
             <nav>
+                
                 <Link to='/'>Home</Link>
                 <Link to='/sobre'>Sobre</Link>
                 <Link to='/projetos'>Projetos</Link>
                 <Link to='/contatos'>Contatos</Link>
+                
             </nav>
         </header>
     );
