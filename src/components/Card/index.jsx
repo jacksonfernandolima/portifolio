@@ -4,13 +4,14 @@ import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { BsArrowRight } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 
-function Card() {
+function Card({ name, description, html_url }) {
     return (
         <section className={styles.card}>
-            <h3>Título do Projeto</h3>
-            <p>Texto descritivo do projeto</p>
+            <h3>{name}</h3>
+            <p>{description}</p>
             <div className={styles.card_footer}> 
             <div className={styles.card_icones}>
                 <FaHtml5 />
@@ -18,9 +19,9 @@ function Card() {
                 <IoLogoJavascript />
                 <FaReact />
             </div>
-            <button className={styles.botao}>
+            <Link  to={html_url} className={styles.botao}>
             <BsArrowRight />
-            </button>
+            </Link>
             </div>
         </section>
     );
