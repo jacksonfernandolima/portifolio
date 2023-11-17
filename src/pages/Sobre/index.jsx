@@ -26,6 +26,7 @@ function Sobre() {
 
                <div className={styles.textos}>
                <h2>Sobre</h2>
+
                <p>Sou <span>Jackson Fernando</span> <br />
                <strong>Dev Front-End</strong></p>
 
@@ -34,7 +35,7 @@ function Sobre() {
                <p>Sou um apaixonado por tecnologia e transformar idéias em realidade digital.</p>
 
                <p>Especializado em criação de aplicações dinâmicas e intuitivas, <br />com foco na boa experiência do usuário.</p>
-
+               
                </div>
             </div>
 

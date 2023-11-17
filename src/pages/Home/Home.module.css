@@ -2,14 +2,15 @@
 .home {
     width: 100%;
     min-height: 100vh;
+    background-color: var(--soft-white);
 
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .home img {
-    height: 650px;
+    height: 500px;
      
     
 }
@@ -47,4 +48,34 @@
 .btn_red:hover {
     background-color: var(--primary);
     transition: all 0.5s;
+}
+
+@media (max-width: 768px) {
+    .home p {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+}
+
+@media (max-width: 390px) {
+    .home p {
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+    }
+
+    .home img {
+        max-width: 100%;
+        height: auto;
+        display: flex;
+       
+    }
+    .btn  {
+            width: 150px;
+            height: 40px;
+            font-size: 0.7rem;   
+        
+    }
 }

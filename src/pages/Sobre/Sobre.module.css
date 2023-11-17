@@ -64,4 +64,24 @@
 
 }
 
+@media (max-width: 768px) {
+    .bio {
+        flex-direction: column;  
+    }
+
+    .sobre h2, p {
+        display: flex;
+        justify-content: center;
+        
+    }
+      
+}
+
+@media (max-width: 390px) {
+    .sobre h2, p  {
+        display: flex;
+        padding: 0.5rem;
+    }
+}
+
 
