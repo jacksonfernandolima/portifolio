@@ -60,7 +60,7 @@
     }
 }
 
-@media (max-width: 412px) {
+@media (max-width: 480px) {
     .home{
         flex-direction: column; 
     }
