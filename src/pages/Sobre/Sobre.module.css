@@ -80,7 +80,7 @@
       
 }
 
-@media (max-width: 412px) {
+@media (max-width: 480px) {
     .bio {
      flex-direction: column;
     } 
