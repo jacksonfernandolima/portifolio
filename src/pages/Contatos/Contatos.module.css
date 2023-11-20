@@ -32,8 +32,8 @@
     transition: all 0.8s;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 412px) {
     .contatos p {
-        font-size:0.85rem;
+        font-size:0.94rem;
     }
 }

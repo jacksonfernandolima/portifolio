@@ -11,6 +11,7 @@
 
 .home img {
     height: 500px;
+    
      
     
 }
@@ -59,45 +60,25 @@
     }
 }
 
-@media (min-width: 320px) {
-    .home p {
-        display: flex;
-        flex-direction: column;
-        font-size: 1rem;
+@media (max-width: 412px) {
+    .home{
+        flex-direction: column; 
     }
-
+    .home p {
+        
+        display: contents;
+        font-size: 1.4rem;   
+    }
     .home img {
         max-width: 100%;
         height: auto;
-        display: flex;
-       
+        padding-inline: 40px;
     }
     .btn  {
             width: 150px;
             height: 40px;
-            font-size: 0.7rem;   
-        
+            font-size: 0.7rem;     
     }
+    
 }
 
-@media ( min-width: 1080px) {
-    .home p {
-        font-size: 2rem;
-        font-weight: bold;
-        margin-bottom: 1rem;
-    }
-        .btn {
-            width: 250px;
-            height: 50px;
-            font-size: 1.125rem;
-            font-weight: bold;
-            border: 0;
-            border-radius: 8px;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-        }
-
-}
