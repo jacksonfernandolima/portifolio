@@ -31,3 +31,9 @@
     transform: translateY(0.5rem);
     transition: all 0.8s;
 }
+
+@media (max-width: 390px) {
+    .contatos p {
+        font-size:0.85rem;
+    }
+}
