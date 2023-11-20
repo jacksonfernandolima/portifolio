@@ -59,7 +59,7 @@
     }
 }
 
-@media (min-width: 488px) {
+@media (min-width: 320px) {
     .home p {
         display: flex;
         flex-direction: column;
